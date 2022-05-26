@@ -251,13 +251,17 @@ body{
     
 }
 .container--img--comentarios{
-    
-    max-height: 100%;
-    overflow: hidden;
+    display: flex;
     align-items: center;
-    width: 100%;
-    object-fit: auto;
-    
+    justify-content: center;
+    padding: 1.8rem;
+}
+.container--img--comentarios img{
+    width: 60rem;
+    height: 20rem;
+}
+@media (min-width: 768px) {
+
 }
 .txt-comentario{
     font-size: 1.2em;
